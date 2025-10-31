@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: orange;
+  padding: 10px 20px;
+  height: 70px;
+}
+
+/* Logo */
+.navbar-logo img {
+  height: 50px;
+  width: auto;
+  border-radius: 5px;
+}
+
+/* Navigation Menu */
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+/* Right Side */
+.navbar-right {
+  display: flex;
+  gap: 15px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
